@@ -1,0 +1,1980 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Brimstone"
+Date "2021-04-21"
+Rev "v1"
+Comp "Stefan Bohne"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW1
+U 1 1 60803123
+P 1450 1400
+F 0 "SW1" H 1450 1685 50  0000 C CNN
+F 1 "SW_Push" H 1450 1594 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 1450 1600 50  0001 C CNN
+F 3 "~" H 1450 1600 50  0001 C CNN
+	1    1450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 608034DE
+P 1250 1550
+F 0 "D1" V 1296 1471 50  0000 R CNN
+F 1 "D" V 1205 1471 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 1250 1550 50  0001 C CNN
+F 3 "~" H 1250 1550 50  0001 C CNN
+	1    1250 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW9
+U 1 1 60805F69
+P 1950 1400
+F 0 "SW9" H 1950 1685 50  0000 C CNN
+F 1 "SW_Push" H 1950 1594 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 1950 1600 50  0001 C CNN
+F 3 "~" H 1950 1600 50  0001 C CNN
+	1    1950 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 60805F73
+P 1750 1550
+F 0 "D9" V 1796 1471 50  0000 R CNN
+F 1 "D" V 1705 1471 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 1750 1550 50  0001 C CNN
+F 3 "~" H 1750 1550 50  0001 C CNN
+	1    1750 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW17
+U 1 1 60806C7B
+P 2450 1400
+F 0 "SW17" H 2450 1685 50  0000 C CNN
+F 1 "SW_Push" H 2450 1594 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 2450 1600 50  0001 C CNN
+F 3 "~" H 2450 1600 50  0001 C CNN
+	1    2450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D17
+U 1 1 60806C85
+P 2250 1550
+F 0 "D17" V 2296 1471 50  0000 R CNN
+F 1 "D" V 2205 1471 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 2250 1550 50  0001 C CNN
+F 3 "~" H 2250 1550 50  0001 C CNN
+	1    2250 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW25
+U 1 1 60806C8F
+P 2950 1400
+F 0 "SW25" H 2950 1685 50  0000 C CNN
+F 1 "SW_Push" H 2950 1594 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 2950 1600 50  0001 C CNN
+F 3 "~" H 2950 1600 50  0001 C CNN
+	1    2950 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D25
+U 1 1 60806C99
+P 2750 1550
+F 0 "D25" V 2796 1471 50  0000 R CNN
+F 1 "D" V 2705 1471 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 2750 1550 50  0001 C CNN
+F 3 "~" H 2750 1550 50  0001 C CNN
+	1    2750 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW33
+U 1 1 6080A699
+P 3450 1400
+F 0 "SW33" H 3450 1685 50  0000 C CNN
+F 1 "SW_Push" H 3450 1594 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 3450 1600 50  0001 C CNN
+F 3 "~" H 3450 1600 50  0001 C CNN
+	1    3450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D33
+U 1 1 6080A6A3
+P 3250 1550
+F 0 "D33" V 3296 1471 50  0000 R CNN
+F 1 "D" V 3205 1471 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 3250 1550 50  0001 C CNN
+F 3 "~" H 3250 1550 50  0001 C CNN
+	1    3250 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW41
+U 1 1 6080A6AD
+P 3950 1400
+F 0 "SW41" H 3950 1685 50  0000 C CNN
+F 1 "SW_Push" H 3950 1594 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 3950 1600 50  0001 C CNN
+F 3 "~" H 3950 1600 50  0001 C CNN
+	1    3950 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D41
+U 1 1 6080A6B7
+P 3750 1550
+F 0 "D41" V 3796 1471 50  0000 R CNN
+F 1 "D" V 3705 1471 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 3750 1550 50  0001 C CNN
+F 3 "~" H 3750 1550 50  0001 C CNN
+	1    3750 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1250 1700 1750 1700
+Connection ~ 1750 1700
+Wire Wire Line
+	1750 1700 2250 1700
+Connection ~ 2250 1700
+Wire Wire Line
+	2250 1700 2750 1700
+Connection ~ 2750 1700
+Wire Wire Line
+	2750 1700 3250 1700
+Connection ~ 3250 1700
+Wire Wire Line
+	3250 1700 3750 1700
+Connection ~ 3750 1700
+$Comp
+L Switch:SW_Push SW2
+U 1 1 6080D6B3
+P 1450 2150
+F 0 "SW2" H 1450 2435 50  0000 C CNN
+F 1 "SW_Push" H 1450 2344 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 1450 2350 50  0001 C CNN
+F 3 "~" H 1450 2350 50  0001 C CNN
+	1    1450 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 6080D6BD
+P 1250 2300
+F 0 "D2" V 1296 2221 50  0000 R CNN
+F 1 "D" V 1205 2221 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 1250 2300 50  0001 C CNN
+F 3 "~" H 1250 2300 50  0001 C CNN
+	1    1250 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW10
+U 1 1 6080D6C7
+P 1950 2150
+F 0 "SW10" H 1950 2435 50  0000 C CNN
+F 1 "SW_Push" H 1950 2344 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 1950 2350 50  0001 C CNN
+F 3 "~" H 1950 2350 50  0001 C CNN
+	1    1950 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 6080D6D1
+P 1750 2300
+F 0 "D10" V 1796 2221 50  0000 R CNN
+F 1 "D" V 1705 2221 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 1750 2300 50  0001 C CNN
+F 3 "~" H 1750 2300 50  0001 C CNN
+	1    1750 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW18
+U 1 1 6080D6DB
+P 2450 2150
+F 0 "SW18" H 2450 2435 50  0000 C CNN
+F 1 "SW_Push" H 2450 2344 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 2450 2350 50  0001 C CNN
+F 3 "~" H 2450 2350 50  0001 C CNN
+	1    2450 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D18
+U 1 1 6080D6E5
+P 2250 2300
+F 0 "D18" V 2296 2221 50  0000 R CNN
+F 1 "D" V 2205 2221 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 2250 2300 50  0001 C CNN
+F 3 "~" H 2250 2300 50  0001 C CNN
+	1    2250 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW26
+U 1 1 6080D6EF
+P 2950 2150
+F 0 "SW26" H 2950 2435 50  0000 C CNN
+F 1 "SW_Push" H 2950 2344 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 2950 2350 50  0001 C CNN
+F 3 "~" H 2950 2350 50  0001 C CNN
+	1    2950 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D26
+U 1 1 6080D6F9
+P 2750 2300
+F 0 "D26" V 2796 2221 50  0000 R CNN
+F 1 "D" V 2705 2221 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 2750 2300 50  0001 C CNN
+F 3 "~" H 2750 2300 50  0001 C CNN
+	1    2750 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW34
+U 1 1 6080D703
+P 3450 2150
+F 0 "SW34" H 3450 2435 50  0000 C CNN
+F 1 "SW_Push" H 3450 2344 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 3450 2350 50  0001 C CNN
+F 3 "~" H 3450 2350 50  0001 C CNN
+	1    3450 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D34
+U 1 1 6080D70D
+P 3250 2300
+F 0 "D34" V 3296 2221 50  0000 R CNN
+F 1 "D" V 3205 2221 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 3250 2300 50  0001 C CNN
+F 3 "~" H 3250 2300 50  0001 C CNN
+	1    3250 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW42
+U 1 1 6080D717
+P 3950 2150
+F 0 "SW42" H 3950 2435 50  0000 C CNN
+F 1 "SW_Push" H 3950 2344 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 3950 2350 50  0001 C CNN
+F 3 "~" H 3950 2350 50  0001 C CNN
+	1    3950 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D42
+U 1 1 6080D721
+P 3750 2300
+F 0 "D42" V 3796 2221 50  0000 R CNN
+F 1 "D" V 3705 2221 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 3750 2300 50  0001 C CNN
+F 3 "~" H 3750 2300 50  0001 C CNN
+	1    3750 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW50
+U 1 1 6080D72B
+P 4450 2150
+F 0 "SW50" H 4450 2435 50  0000 C CNN
+F 1 "SW_Push" H 4450 2344 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 4450 2350 50  0001 C CNN
+F 3 "~" H 4450 2350 50  0001 C CNN
+	1    4450 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D50
+U 1 1 6080D735
+P 4250 2300
+F 0 "D50" V 4296 2221 50  0000 R CNN
+F 1 "D" V 4205 2221 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 4250 2300 50  0001 C CNN
+F 3 "~" H 4250 2300 50  0001 C CNN
+	1    4250 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW58
+U 1 1 6080D73F
+P 4950 2150
+F 0 "SW58" H 4950 2435 50  0000 C CNN
+F 1 "SW_Push" H 4950 2344 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 4950 2350 50  0001 C CNN
+F 3 "~" H 4950 2350 50  0001 C CNN
+	1    4950 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D58
+U 1 1 6080D749
+P 4750 2300
+F 0 "D58" V 4796 2221 50  0000 R CNN
+F 1 "D" V 4705 2221 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 4750 2300 50  0001 C CNN
+F 3 "~" H 4750 2300 50  0001 C CNN
+	1    4750 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1250 2450 1750 2450
+Connection ~ 1750 2450
+Wire Wire Line
+	1750 2450 2250 2450
+Connection ~ 2250 2450
+Wire Wire Line
+	2250 2450 2750 2450
+Connection ~ 2750 2450
+Wire Wire Line
+	2750 2450 3250 2450
+Connection ~ 3250 2450
+Wire Wire Line
+	3250 2450 3750 2450
+Connection ~ 3750 2450
+Wire Wire Line
+	3750 2450 4250 2450
+Connection ~ 4250 2450
+Wire Wire Line
+	4250 2450 4750 2450
+Connection ~ 4750 2450
+$Comp
+L Switch:SW_Push SW3
+U 1 1 60813C88
+P 1450 2850
+F 0 "SW3" H 1450 3135 50  0000 C CNN
+F 1 "SW_Push" H 1450 3044 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 1450 3050 50  0001 C CNN
+F 3 "~" H 1450 3050 50  0001 C CNN
+	1    1450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 60813C92
+P 1250 3000
+F 0 "D3" V 1296 2921 50  0000 R CNN
+F 1 "D" V 1205 2921 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 1250 3000 50  0001 C CNN
+F 3 "~" H 1250 3000 50  0001 C CNN
+	1    1250 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW11
+U 1 1 60813C9C
+P 1950 2850
+F 0 "SW11" H 1950 3135 50  0000 C CNN
+F 1 "SW_Push" H 1950 3044 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 1950 3050 50  0001 C CNN
+F 3 "~" H 1950 3050 50  0001 C CNN
+	1    1950 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 60813CA6
+P 1750 3000
+F 0 "D11" V 1796 2921 50  0000 R CNN
+F 1 "D" V 1705 2921 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 1750 3000 50  0001 C CNN
+F 3 "~" H 1750 3000 50  0001 C CNN
+	1    1750 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW19
+U 1 1 60813CB0
+P 2450 2850
+F 0 "SW19" H 2450 3135 50  0000 C CNN
+F 1 "SW_Push" H 2450 3044 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 2450 3050 50  0001 C CNN
+F 3 "~" H 2450 3050 50  0001 C CNN
+	1    2450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D19
+U 1 1 60813CBA
+P 2250 3000
+F 0 "D19" V 2296 2921 50  0000 R CNN
+F 1 "D" V 2205 2921 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 2250 3000 50  0001 C CNN
+F 3 "~" H 2250 3000 50  0001 C CNN
+	1    2250 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW27
+U 1 1 60813CC4
+P 2950 2850
+F 0 "SW27" H 2950 3135 50  0000 C CNN
+F 1 "SW_Push" H 2950 3044 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 2950 3050 50  0001 C CNN
+F 3 "~" H 2950 3050 50  0001 C CNN
+	1    2950 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D27
+U 1 1 60813CCE
+P 2750 3000
+F 0 "D27" V 2796 2921 50  0000 R CNN
+F 1 "D" V 2705 2921 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 2750 3000 50  0001 C CNN
+F 3 "~" H 2750 3000 50  0001 C CNN
+	1    2750 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW35
+U 1 1 60813CD8
+P 3450 2850
+F 0 "SW35" H 3450 3135 50  0000 C CNN
+F 1 "SW_Push" H 3450 3044 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 3450 3050 50  0001 C CNN
+F 3 "~" H 3450 3050 50  0001 C CNN
+	1    3450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D35
+U 1 1 60813CE2
+P 3250 3000
+F 0 "D35" V 3296 2921 50  0000 R CNN
+F 1 "D" V 3205 2921 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 3250 3000 50  0001 C CNN
+F 3 "~" H 3250 3000 50  0001 C CNN
+	1    3250 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW43
+U 1 1 60813CEC
+P 3950 2850
+F 0 "SW43" H 3950 3135 50  0000 C CNN
+F 1 "SW_Push" H 3950 3044 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 3950 3050 50  0001 C CNN
+F 3 "~" H 3950 3050 50  0001 C CNN
+	1    3950 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D43
+U 1 1 60813CF6
+P 3750 3000
+F 0 "D43" V 3796 2921 50  0000 R CNN
+F 1 "D" V 3705 2921 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 3750 3000 50  0001 C CNN
+F 3 "~" H 3750 3000 50  0001 C CNN
+	1    3750 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW51
+U 1 1 60813D00
+P 4450 2850
+F 0 "SW51" H 4450 3135 50  0000 C CNN
+F 1 "SW_Push" H 4450 3044 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 4450 3050 50  0001 C CNN
+F 3 "~" H 4450 3050 50  0001 C CNN
+	1    4450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D51
+U 1 1 60813D0A
+P 4250 3000
+F 0 "D51" V 4296 2921 50  0000 R CNN
+F 1 "D" V 4205 2921 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 4250 3000 50  0001 C CNN
+F 3 "~" H 4250 3000 50  0001 C CNN
+	1    4250 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW59
+U 1 1 60813D14
+P 4950 2850
+F 0 "SW59" H 4950 3135 50  0000 C CNN
+F 1 "SW_Push" H 4950 3044 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 4950 3050 50  0001 C CNN
+F 3 "~" H 4950 3050 50  0001 C CNN
+	1    4950 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D59
+U 1 1 60813D1E
+P 4750 3000
+F 0 "D59" V 4796 2921 50  0000 R CNN
+F 1 "D" V 4705 2921 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 4750 3000 50  0001 C CNN
+F 3 "~" H 4750 3000 50  0001 C CNN
+	1    4750 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1250 3150 1750 3150
+Connection ~ 1750 3150
+Wire Wire Line
+	1750 3150 2250 3150
+Connection ~ 2250 3150
+Wire Wire Line
+	2250 3150 2750 3150
+Connection ~ 2750 3150
+Wire Wire Line
+	2750 3150 3250 3150
+Connection ~ 3250 3150
+Wire Wire Line
+	3250 3150 3750 3150
+Connection ~ 3750 3150
+Wire Wire Line
+	3750 3150 4250 3150
+Connection ~ 4250 3150
+Wire Wire Line
+	4250 3150 4750 3150
+Connection ~ 4750 3150
+$Comp
+L Switch:SW_Push SW4
+U 1 1 60813D38
+P 1450 3600
+F 0 "SW4" H 1450 3885 50  0000 C CNN
+F 1 "SW_Push" H 1450 3794 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 1450 3800 50  0001 C CNN
+F 3 "~" H 1450 3800 50  0001 C CNN
+	1    1450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 60813D42
+P 1250 3750
+F 0 "D4" V 1296 3671 50  0000 R CNN
+F 1 "D" V 1205 3671 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 1250 3750 50  0001 C CNN
+F 3 "~" H 1250 3750 50  0001 C CNN
+	1    1250 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW12
+U 1 1 60813D4C
+P 1950 3600
+F 0 "SW12" H 1950 3885 50  0000 C CNN
+F 1 "SW_Push" H 1950 3794 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 1950 3800 50  0001 C CNN
+F 3 "~" H 1950 3800 50  0001 C CNN
+	1    1950 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 60813D56
+P 1750 3750
+F 0 "D12" V 1796 3671 50  0000 R CNN
+F 1 "D" V 1705 3671 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 1750 3750 50  0001 C CNN
+F 3 "~" H 1750 3750 50  0001 C CNN
+	1    1750 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW20
+U 1 1 60813D60
+P 2450 3600
+F 0 "SW20" H 2450 3885 50  0000 C CNN
+F 1 "SW_Push" H 2450 3794 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 2450 3800 50  0001 C CNN
+F 3 "~" H 2450 3800 50  0001 C CNN
+	1    2450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D20
+U 1 1 60813D6A
+P 2250 3750
+F 0 "D20" V 2296 3671 50  0000 R CNN
+F 1 "D" V 2205 3671 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 2250 3750 50  0001 C CNN
+F 3 "~" H 2250 3750 50  0001 C CNN
+	1    2250 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW28
+U 1 1 60813D74
+P 2950 3600
+F 0 "SW28" H 2950 3885 50  0000 C CNN
+F 1 "SW_Push" H 2950 3794 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 2950 3800 50  0001 C CNN
+F 3 "~" H 2950 3800 50  0001 C CNN
+	1    2950 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D28
+U 1 1 60813D7E
+P 2750 3750
+F 0 "D28" V 2796 3671 50  0000 R CNN
+F 1 "D" V 2705 3671 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 2750 3750 50  0001 C CNN
+F 3 "~" H 2750 3750 50  0001 C CNN
+	1    2750 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW36
+U 1 1 60813D88
+P 3450 3600
+F 0 "SW36" H 3450 3885 50  0000 C CNN
+F 1 "SW_Push" H 3450 3794 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 3450 3800 50  0001 C CNN
+F 3 "~" H 3450 3800 50  0001 C CNN
+	1    3450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D36
+U 1 1 60813D92
+P 3250 3750
+F 0 "D36" V 3296 3671 50  0000 R CNN
+F 1 "D" V 3205 3671 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 3250 3750 50  0001 C CNN
+F 3 "~" H 3250 3750 50  0001 C CNN
+	1    3250 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW44
+U 1 1 60813D9C
+P 3950 3600
+F 0 "SW44" H 3950 3885 50  0000 C CNN
+F 1 "SW_Push" H 3950 3794 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 3950 3800 50  0001 C CNN
+F 3 "~" H 3950 3800 50  0001 C CNN
+	1    3950 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D44
+U 1 1 60813DA6
+P 3750 3750
+F 0 "D44" V 3796 3671 50  0000 R CNN
+F 1 "D" V 3705 3671 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 3750 3750 50  0001 C CNN
+F 3 "~" H 3750 3750 50  0001 C CNN
+	1    3750 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW52
+U 1 1 60813DB0
+P 4450 3600
+F 0 "SW52" H 4450 3885 50  0000 C CNN
+F 1 "SW_Push" H 4450 3794 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 4450 3800 50  0001 C CNN
+F 3 "~" H 4450 3800 50  0001 C CNN
+	1    4450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D52
+U 1 1 60813DBA
+P 4250 3750
+F 0 "D52" V 4296 3671 50  0000 R CNN
+F 1 "D" V 4205 3671 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 4250 3750 50  0001 C CNN
+F 3 "~" H 4250 3750 50  0001 C CNN
+	1    4250 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW60
+U 1 1 60813DC4
+P 4950 3600
+F 0 "SW60" H 4950 3885 50  0000 C CNN
+F 1 "SW_Push" H 4950 3794 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 4950 3800 50  0001 C CNN
+F 3 "~" H 4950 3800 50  0001 C CNN
+	1    4950 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D60
+U 1 1 60813DCE
+P 4750 3750
+F 0 "D60" V 4796 3671 50  0000 R CNN
+F 1 "D" V 4705 3671 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 4750 3750 50  0001 C CNN
+F 3 "~" H 4750 3750 50  0001 C CNN
+	1    4750 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1250 3900 1750 3900
+Connection ~ 1750 3900
+Wire Wire Line
+	1750 3900 2250 3900
+Connection ~ 2250 3900
+Wire Wire Line
+	2250 3900 2750 3900
+Connection ~ 2750 3900
+Wire Wire Line
+	2750 3900 3250 3900
+Connection ~ 3250 3900
+Wire Wire Line
+	3250 3900 3750 3900
+Connection ~ 3750 3900
+Wire Wire Line
+	3750 3900 4250 3900
+Connection ~ 4250 3900
+Wire Wire Line
+	4250 3900 4750 3900
+Connection ~ 4750 3900
+$Comp
+L Switch:SW_Push SW5
+U 1 1 608331E6
+P 1450 4350
+F 0 "SW5" H 1450 4635 50  0000 C CNN
+F 1 "SW_Push" H 1450 4544 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 1450 4550 50  0001 C CNN
+F 3 "~" H 1450 4550 50  0001 C CNN
+	1    1450 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 608331F0
+P 1250 4500
+F 0 "D5" V 1296 4421 50  0000 R CNN
+F 1 "D" V 1205 4421 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 1250 4500 50  0001 C CNN
+F 3 "~" H 1250 4500 50  0001 C CNN
+	1    1250 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW13
+U 1 1 608331FA
+P 1950 4350
+F 0 "SW13" H 1950 4635 50  0000 C CNN
+F 1 "SW_Push" H 1950 4544 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 1950 4550 50  0001 C CNN
+F 3 "~" H 1950 4550 50  0001 C CNN
+	1    1950 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 60833204
+P 1750 4500
+F 0 "D13" V 1796 4421 50  0000 R CNN
+F 1 "D" V 1705 4421 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 1750 4500 50  0001 C CNN
+F 3 "~" H 1750 4500 50  0001 C CNN
+	1    1750 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW21
+U 1 1 6083320E
+P 2450 4350
+F 0 "SW21" H 2450 4635 50  0000 C CNN
+F 1 "SW_Push" H 2450 4544 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 2450 4550 50  0001 C CNN
+F 3 "~" H 2450 4550 50  0001 C CNN
+	1    2450 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D21
+U 1 1 60833218
+P 2250 4500
+F 0 "D21" V 2296 4421 50  0000 R CNN
+F 1 "D" V 2205 4421 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 2250 4500 50  0001 C CNN
+F 3 "~" H 2250 4500 50  0001 C CNN
+	1    2250 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW29
+U 1 1 60833222
+P 2950 4350
+F 0 "SW29" H 2950 4635 50  0000 C CNN
+F 1 "SW_Push" H 2950 4544 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 2950 4550 50  0001 C CNN
+F 3 "~" H 2950 4550 50  0001 C CNN
+	1    2950 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D29
+U 1 1 6083322C
+P 2750 4500
+F 0 "D29" V 2796 4421 50  0000 R CNN
+F 1 "D" V 2705 4421 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 2750 4500 50  0001 C CNN
+F 3 "~" H 2750 4500 50  0001 C CNN
+	1    2750 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW37
+U 1 1 60833236
+P 3450 4350
+F 0 "SW37" H 3450 4635 50  0000 C CNN
+F 1 "SW_Push" H 3450 4544 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 3450 4550 50  0001 C CNN
+F 3 "~" H 3450 4550 50  0001 C CNN
+	1    3450 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D37
+U 1 1 60833240
+P 3250 4500
+F 0 "D37" V 3296 4421 50  0000 R CNN
+F 1 "D" V 3205 4421 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 3250 4500 50  0001 C CNN
+F 3 "~" H 3250 4500 50  0001 C CNN
+	1    3250 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW45
+U 1 1 6083324A
+P 3950 4350
+F 0 "SW45" H 3950 4635 50  0000 C CNN
+F 1 "SW_Push" H 3950 4544 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 3950 4550 50  0001 C CNN
+F 3 "~" H 3950 4550 50  0001 C CNN
+	1    3950 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D45
+U 1 1 60833254
+P 3750 4500
+F 0 "D45" V 3796 4421 50  0000 R CNN
+F 1 "D" V 3705 4421 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 3750 4500 50  0001 C CNN
+F 3 "~" H 3750 4500 50  0001 C CNN
+	1    3750 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW53
+U 1 1 6083325E
+P 4450 4350
+F 0 "SW53" H 4450 4635 50  0000 C CNN
+F 1 "SW_Push" H 4450 4544 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 4450 4550 50  0001 C CNN
+F 3 "~" H 4450 4550 50  0001 C CNN
+	1    4450 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D53
+U 1 1 60833268
+P 4250 4500
+F 0 "D53" V 4296 4421 50  0000 R CNN
+F 1 "D" V 4205 4421 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 4250 4500 50  0001 C CNN
+F 3 "~" H 4250 4500 50  0001 C CNN
+	1    4250 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW61
+U 1 1 60833272
+P 4950 4350
+F 0 "SW61" H 4950 4635 50  0000 C CNN
+F 1 "SW_Push" H 4950 4544 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 4950 4550 50  0001 C CNN
+F 3 "~" H 4950 4550 50  0001 C CNN
+	1    4950 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D61
+U 1 1 6083327C
+P 4750 4500
+F 0 "D61" V 4796 4421 50  0000 R CNN
+F 1 "D" V 4705 4421 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 4750 4500 50  0001 C CNN
+F 3 "~" H 4750 4500 50  0001 C CNN
+	1    4750 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1250 4650 1750 4650
+Connection ~ 1750 4650
+Wire Wire Line
+	1750 4650 2250 4650
+Connection ~ 2250 4650
+Wire Wire Line
+	2250 4650 2750 4650
+Connection ~ 2750 4650
+Wire Wire Line
+	2750 4650 3250 4650
+Connection ~ 3250 4650
+Wire Wire Line
+	3250 4650 3750 4650
+Connection ~ 3750 4650
+Wire Wire Line
+	3750 4650 4250 4650
+Connection ~ 4250 4650
+Wire Wire Line
+	4250 4650 4750 4650
+Connection ~ 4750 4650
+$Comp
+L Switch:SW_Push SW6
+U 1 1 60833296
+P 1450 5100
+F 0 "SW6" H 1450 5385 50  0000 C CNN
+F 1 "SW_Push" H 1450 5294 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 1450 5300 50  0001 C CNN
+F 3 "~" H 1450 5300 50  0001 C CNN
+	1    1450 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 608332A0
+P 1250 5250
+F 0 "D6" V 1296 5171 50  0000 R CNN
+F 1 "D" V 1205 5171 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 1250 5250 50  0001 C CNN
+F 3 "~" H 1250 5250 50  0001 C CNN
+	1    1250 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW14
+U 1 1 608332AA
+P 1950 5100
+F 0 "SW14" H 1950 5385 50  0000 C CNN
+F 1 "SW_Push" H 1950 5294 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 1950 5300 50  0001 C CNN
+F 3 "~" H 1950 5300 50  0001 C CNN
+	1    1950 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 608332B4
+P 1750 5250
+F 0 "D14" V 1796 5171 50  0000 R CNN
+F 1 "D" V 1705 5171 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 1750 5250 50  0001 C CNN
+F 3 "~" H 1750 5250 50  0001 C CNN
+	1    1750 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW22
+U 1 1 608332BE
+P 2450 5100
+F 0 "SW22" H 2450 5385 50  0000 C CNN
+F 1 "SW_Push" H 2450 5294 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 2450 5300 50  0001 C CNN
+F 3 "~" H 2450 5300 50  0001 C CNN
+	1    2450 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D22
+U 1 1 608332C8
+P 2250 5250
+F 0 "D22" V 2296 5171 50  0000 R CNN
+F 1 "D" V 2205 5171 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 2250 5250 50  0001 C CNN
+F 3 "~" H 2250 5250 50  0001 C CNN
+	1    2250 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW30
+U 1 1 608332D2
+P 2950 5100
+F 0 "SW30" H 2950 5385 50  0000 C CNN
+F 1 "SW_Push" H 2950 5294 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 2950 5300 50  0001 C CNN
+F 3 "~" H 2950 5300 50  0001 C CNN
+	1    2950 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D30
+U 1 1 608332DC
+P 2750 5250
+F 0 "D30" V 2796 5171 50  0000 R CNN
+F 1 "D" V 2705 5171 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 2750 5250 50  0001 C CNN
+F 3 "~" H 2750 5250 50  0001 C CNN
+	1    2750 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW38
+U 1 1 608332E6
+P 3450 5100
+F 0 "SW38" H 3450 5385 50  0000 C CNN
+F 1 "SW_Push" H 3450 5294 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 3450 5300 50  0001 C CNN
+F 3 "~" H 3450 5300 50  0001 C CNN
+	1    3450 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D38
+U 1 1 608332F0
+P 3250 5250
+F 0 "D38" V 3296 5171 50  0000 R CNN
+F 1 "D" V 3205 5171 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 3250 5250 50  0001 C CNN
+F 3 "~" H 3250 5250 50  0001 C CNN
+	1    3250 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW46
+U 1 1 608332FA
+P 3950 5100
+F 0 "SW46" H 3950 5385 50  0000 C CNN
+F 1 "SW_Push" H 3950 5294 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 3950 5300 50  0001 C CNN
+F 3 "~" H 3950 5300 50  0001 C CNN
+	1    3950 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D46
+U 1 1 60833304
+P 3750 5250
+F 0 "D46" V 3796 5171 50  0000 R CNN
+F 1 "D" V 3705 5171 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 3750 5250 50  0001 C CNN
+F 3 "~" H 3750 5250 50  0001 C CNN
+	1    3750 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW54
+U 1 1 6083330E
+P 4450 5100
+F 0 "SW54" H 4450 5385 50  0000 C CNN
+F 1 "SW_Push" H 4450 5294 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 4450 5300 50  0001 C CNN
+F 3 "~" H 4450 5300 50  0001 C CNN
+	1    4450 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D54
+U 1 1 60833318
+P 4250 5250
+F 0 "D54" V 4296 5171 50  0000 R CNN
+F 1 "D" V 4205 5171 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 4250 5250 50  0001 C CNN
+F 3 "~" H 4250 5250 50  0001 C CNN
+	1    4250 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW62
+U 1 1 60833322
+P 4950 5100
+F 0 "SW62" H 4950 5385 50  0000 C CNN
+F 1 "SW_Push" H 4950 5294 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 4950 5300 50  0001 C CNN
+F 3 "~" H 4950 5300 50  0001 C CNN
+	1    4950 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D62
+U 1 1 6083332C
+P 4750 5250
+F 0 "D62" V 4796 5171 50  0000 R CNN
+F 1 "D" V 4705 5171 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 4750 5250 50  0001 C CNN
+F 3 "~" H 4750 5250 50  0001 C CNN
+	1    4750 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1250 5400 1750 5400
+Connection ~ 1750 5400
+Wire Wire Line
+	1750 5400 2250 5400
+Connection ~ 2250 5400
+Wire Wire Line
+	2250 5400 2750 5400
+Connection ~ 2750 5400
+Wire Wire Line
+	2750 5400 3250 5400
+Connection ~ 3250 5400
+Wire Wire Line
+	3250 5400 3750 5400
+Connection ~ 3750 5400
+Wire Wire Line
+	3750 5400 4250 5400
+Connection ~ 4250 5400
+Wire Wire Line
+	4250 5400 4750 5400
+Connection ~ 4750 5400
+$Comp
+L Switch:SW_Push SW7
+U 1 1 60833346
+P 1450 5800
+F 0 "SW7" H 1450 6085 50  0000 C CNN
+F 1 "SW_Push" H 1450 5994 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 1450 6000 50  0001 C CNN
+F 3 "~" H 1450 6000 50  0001 C CNN
+	1    1450 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 60833350
+P 1250 5950
+F 0 "D7" V 1296 5871 50  0000 R CNN
+F 1 "D" V 1205 5871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 1250 5950 50  0001 C CNN
+F 3 "~" H 1250 5950 50  0001 C CNN
+	1    1250 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW15
+U 1 1 6083335A
+P 1950 5800
+F 0 "SW15" H 1950 6085 50  0000 C CNN
+F 1 "SW_Push" H 1950 5994 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 1950 6000 50  0001 C CNN
+F 3 "~" H 1950 6000 50  0001 C CNN
+	1    1950 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 60833364
+P 1750 5950
+F 0 "D15" V 1796 5871 50  0000 R CNN
+F 1 "D" V 1705 5871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 1750 5950 50  0001 C CNN
+F 3 "~" H 1750 5950 50  0001 C CNN
+	1    1750 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW23
+U 1 1 6083336E
+P 2450 5800
+F 0 "SW23" H 2450 6085 50  0000 C CNN
+F 1 "SW_Push" H 2450 5994 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 2450 6000 50  0001 C CNN
+F 3 "~" H 2450 6000 50  0001 C CNN
+	1    2450 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D23
+U 1 1 60833378
+P 2250 5950
+F 0 "D23" V 2296 5871 50  0000 R CNN
+F 1 "D" V 2205 5871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 2250 5950 50  0001 C CNN
+F 3 "~" H 2250 5950 50  0001 C CNN
+	1    2250 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW31
+U 1 1 60833382
+P 2950 5800
+F 0 "SW31" H 2950 6085 50  0000 C CNN
+F 1 "SW_Push" H 2950 5994 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 2950 6000 50  0001 C CNN
+F 3 "~" H 2950 6000 50  0001 C CNN
+	1    2950 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D31
+U 1 1 6083338C
+P 2750 5950
+F 0 "D31" V 2796 5871 50  0000 R CNN
+F 1 "D" V 2705 5871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 2750 5950 50  0001 C CNN
+F 3 "~" H 2750 5950 50  0001 C CNN
+	1    2750 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW39
+U 1 1 60833396
+P 3450 5800
+F 0 "SW39" H 3450 6085 50  0000 C CNN
+F 1 "SW_Push" H 3450 5994 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 3450 6000 50  0001 C CNN
+F 3 "~" H 3450 6000 50  0001 C CNN
+	1    3450 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D39
+U 1 1 608333A0
+P 3250 5950
+F 0 "D39" V 3296 5871 50  0000 R CNN
+F 1 "D" V 3205 5871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 3250 5950 50  0001 C CNN
+F 3 "~" H 3250 5950 50  0001 C CNN
+	1    3250 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW47
+U 1 1 608333AA
+P 3950 5800
+F 0 "SW47" H 3950 6085 50  0000 C CNN
+F 1 "SW_Push" H 3950 5994 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 3950 6000 50  0001 C CNN
+F 3 "~" H 3950 6000 50  0001 C CNN
+	1    3950 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D47
+U 1 1 608333B4
+P 3750 5950
+F 0 "D47" V 3796 5871 50  0000 R CNN
+F 1 "D" V 3705 5871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 3750 5950 50  0001 C CNN
+F 3 "~" H 3750 5950 50  0001 C CNN
+	1    3750 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW55
+U 1 1 608333BE
+P 4450 5800
+F 0 "SW55" H 4450 6085 50  0000 C CNN
+F 1 "SW_Push" H 4450 5994 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 4450 6000 50  0001 C CNN
+F 3 "~" H 4450 6000 50  0001 C CNN
+	1    4450 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D55
+U 1 1 608333C8
+P 4250 5950
+F 0 "D55" V 4296 5871 50  0000 R CNN
+F 1 "D" V 4205 5871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 4250 5950 50  0001 C CNN
+F 3 "~" H 4250 5950 50  0001 C CNN
+	1    4250 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW63
+U 1 1 608333D2
+P 4950 5800
+F 0 "SW63" H 4950 6085 50  0000 C CNN
+F 1 "SW_Push" H 4950 5994 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 4950 6000 50  0001 C CNN
+F 3 "~" H 4950 6000 50  0001 C CNN
+	1    4950 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D63
+U 1 1 608333DC
+P 4750 5950
+F 0 "D63" V 4796 5871 50  0000 R CNN
+F 1 "D" V 4705 5871 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 4750 5950 50  0001 C CNN
+F 3 "~" H 4750 5950 50  0001 C CNN
+	1    4750 5950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1250 6100 1750 6100
+Connection ~ 1750 6100
+Wire Wire Line
+	1750 6100 2250 6100
+Connection ~ 2250 6100
+Wire Wire Line
+	2250 6100 2750 6100
+Connection ~ 2750 6100
+Wire Wire Line
+	2750 6100 3250 6100
+Connection ~ 3250 6100
+Wire Wire Line
+	3250 6100 3750 6100
+Connection ~ 3750 6100
+Wire Wire Line
+	3750 6100 4250 6100
+Connection ~ 4250 6100
+Wire Wire Line
+	4250 6100 4750 6100
+Connection ~ 4750 6100
+$Comp
+L Switch:SW_Push SW8
+U 1 1 608333F6
+P 1450 6550
+F 0 "SW8" H 1450 6835 50  0000 C CNN
+F 1 "SW_Push" H 1450 6744 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 1450 6750 50  0001 C CNN
+F 3 "~" H 1450 6750 50  0001 C CNN
+	1    1450 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 60833400
+P 1250 6700
+F 0 "D8" V 1296 6621 50  0000 R CNN
+F 1 "D" V 1205 6621 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 1250 6700 50  0001 C CNN
+F 3 "~" H 1250 6700 50  0001 C CNN
+	1    1250 6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW16
+U 1 1 6083340A
+P 1950 6550
+F 0 "SW16" H 1950 6835 50  0000 C CNN
+F 1 "SW_Push" H 1950 6744 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 1950 6750 50  0001 C CNN
+F 3 "~" H 1950 6750 50  0001 C CNN
+	1    1950 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 60833414
+P 1750 6700
+F 0 "D16" V 1796 6621 50  0000 R CNN
+F 1 "D" V 1705 6621 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 1750 6700 50  0001 C CNN
+F 3 "~" H 1750 6700 50  0001 C CNN
+	1    1750 6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW24
+U 1 1 6083341E
+P 2450 6550
+F 0 "SW24" H 2450 6835 50  0000 C CNN
+F 1 "SW_Push" H 2450 6744 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 2450 6750 50  0001 C CNN
+F 3 "~" H 2450 6750 50  0001 C CNN
+	1    2450 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D24
+U 1 1 60833428
+P 2250 6700
+F 0 "D24" V 2296 6621 50  0000 R CNN
+F 1 "D" V 2205 6621 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 2250 6700 50  0001 C CNN
+F 3 "~" H 2250 6700 50  0001 C CNN
+	1    2250 6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW32
+U 1 1 60833432
+P 2950 6550
+F 0 "SW32" H 2950 6835 50  0000 C CNN
+F 1 "SW_Push" H 2950 6744 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 2950 6750 50  0001 C CNN
+F 3 "~" H 2950 6750 50  0001 C CNN
+	1    2950 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D32
+U 1 1 6083343C
+P 2750 6700
+F 0 "D32" V 2796 6621 50  0000 R CNN
+F 1 "D" V 2705 6621 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 2750 6700 50  0001 C CNN
+F 3 "~" H 2750 6700 50  0001 C CNN
+	1    2750 6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW40
+U 1 1 60833446
+P 3450 6550
+F 0 "SW40" H 3450 6835 50  0000 C CNN
+F 1 "SW_Push" H 3450 6744 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 3450 6750 50  0001 C CNN
+F 3 "~" H 3450 6750 50  0001 C CNN
+	1    3450 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D40
+U 1 1 60833450
+P 3250 6700
+F 0 "D40" V 3296 6621 50  0000 R CNN
+F 1 "D" V 3205 6621 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 3250 6700 50  0001 C CNN
+F 3 "~" H 3250 6700 50  0001 C CNN
+	1    3250 6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW48
+U 1 1 6083345A
+P 3950 6550
+F 0 "SW48" H 3950 6835 50  0000 C CNN
+F 1 "SW_Push" H 3950 6744 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 3950 6750 50  0001 C CNN
+F 3 "~" H 3950 6750 50  0001 C CNN
+	1    3950 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D48
+U 1 1 60833464
+P 3750 6700
+F 0 "D48" V 3796 6621 50  0000 R CNN
+F 1 "D" V 3705 6621 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 3750 6700 50  0001 C CNN
+F 3 "~" H 3750 6700 50  0001 C CNN
+	1    3750 6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW56
+U 1 1 6083346E
+P 4450 6550
+F 0 "SW56" H 4450 6835 50  0000 C CNN
+F 1 "SW_Push" H 4450 6744 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 4450 6750 50  0001 C CNN
+F 3 "~" H 4450 6750 50  0001 C CNN
+	1    4450 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D56
+U 1 1 60833478
+P 4250 6700
+F 0 "D56" V 4296 6621 50  0000 R CNN
+F 1 "D" V 4205 6621 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 4250 6700 50  0001 C CNN
+F 3 "~" H 4250 6700 50  0001 C CNN
+	1    4250 6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW64
+U 1 1 60833482
+P 4950 6550
+F 0 "SW64" H 4950 6835 50  0000 C CNN
+F 1 "SW_Push" H 4950 6744 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 4950 6750 50  0001 C CNN
+F 3 "~" H 4950 6750 50  0001 C CNN
+	1    4950 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D64
+U 1 1 6083348C
+P 4750 6700
+F 0 "D64" V 4796 6621 50  0000 R CNN
+F 1 "D" V 4705 6621 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 4750 6700 50  0001 C CNN
+F 3 "~" H 4750 6700 50  0001 C CNN
+	1    4750 6700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1250 6850 1750 6850
+Connection ~ 1750 6850
+Wire Wire Line
+	1750 6850 2250 6850
+Connection ~ 2250 6850
+Wire Wire Line
+	2250 6850 2750 6850
+Connection ~ 2750 6850
+Wire Wire Line
+	2750 6850 3250 6850
+Connection ~ 3250 6850
+Wire Wire Line
+	3250 6850 3750 6850
+Connection ~ 3750 6850
+Wire Wire Line
+	3750 6850 4250 6850
+Connection ~ 4250 6850
+Wire Wire Line
+	4250 6850 4750 6850
+Connection ~ 4750 6850
+Connection ~ 1650 1400
+Wire Wire Line
+	1650 1400 1650 2150
+Connection ~ 1650 2150
+Wire Wire Line
+	1650 2150 1650 2850
+Connection ~ 1650 2850
+Wire Wire Line
+	1650 2850 1650 3600
+Connection ~ 1650 3600
+Wire Wire Line
+	1650 3600 1650 4350
+Connection ~ 1650 4350
+Wire Wire Line
+	1650 4350 1650 5100
+Connection ~ 1650 5100
+Wire Wire Line
+	1650 5100 1650 5800
+Connection ~ 1650 5800
+Wire Wire Line
+	1650 5800 1650 6550
+Connection ~ 2150 1400
+Wire Wire Line
+	2150 1400 2150 2150
+Connection ~ 2150 2150
+Wire Wire Line
+	2150 2150 2150 2850
+Connection ~ 2150 2850
+Wire Wire Line
+	2150 2850 2150 3600
+Connection ~ 2150 3600
+Wire Wire Line
+	2150 3600 2150 4350
+Connection ~ 2150 4350
+Wire Wire Line
+	2150 4350 2150 5100
+Connection ~ 2150 5100
+Wire Wire Line
+	2150 5100 2150 5800
+Connection ~ 2150 5800
+Wire Wire Line
+	2150 5800 2150 6550
+Connection ~ 2650 1400
+Wire Wire Line
+	2650 1400 2650 2150
+Connection ~ 2650 2150
+Wire Wire Line
+	2650 2150 2650 2850
+Connection ~ 2650 2850
+Wire Wire Line
+	2650 2850 2650 3600
+Connection ~ 2650 3600
+Wire Wire Line
+	2650 3600 2650 4350
+Connection ~ 2650 4350
+Wire Wire Line
+	2650 4350 2650 5100
+Connection ~ 2650 5100
+Wire Wire Line
+	2650 5100 2650 5800
+Connection ~ 2650 5800
+Wire Wire Line
+	2650 5800 2650 6550
+Connection ~ 3150 1400
+Wire Wire Line
+	3150 1400 3150 2150
+Connection ~ 3150 2150
+Wire Wire Line
+	3150 2150 3150 2850
+Connection ~ 3150 2850
+Wire Wire Line
+	3150 2850 3150 3600
+Connection ~ 3150 3600
+Wire Wire Line
+	3150 3600 3150 4350
+Connection ~ 3150 4350
+Wire Wire Line
+	3150 4350 3150 5100
+Connection ~ 3150 5100
+Wire Wire Line
+	3150 5100 3150 5800
+Connection ~ 3150 5800
+Wire Wire Line
+	3150 5800 3150 6550
+Wire Wire Line
+	3650 1000 3650 1400
+Connection ~ 3650 1400
+Wire Wire Line
+	3650 1400 3650 2150
+Connection ~ 3650 2150
+Wire Wire Line
+	3650 2150 3650 2850
+Connection ~ 3650 2850
+Wire Wire Line
+	3650 2850 3650 3600
+Connection ~ 3650 3600
+Wire Wire Line
+	3650 3600 3650 4350
+Connection ~ 3650 4350
+Wire Wire Line
+	3650 4350 3650 5100
+Connection ~ 3650 5100
+Wire Wire Line
+	3650 5100 3650 5800
+Connection ~ 3650 5800
+Wire Wire Line
+	3650 5800 3650 6550
+Wire Wire Line
+	4150 1000 4150 1400
+Connection ~ 4150 1400
+Wire Wire Line
+	4150 1400 4150 2150
+Connection ~ 4150 2150
+Wire Wire Line
+	4150 2150 4150 2850
+Connection ~ 4150 2850
+Wire Wire Line
+	4150 2850 4150 3600
+Connection ~ 4150 3600
+Wire Wire Line
+	4150 3600 4150 4350
+Connection ~ 4150 4350
+Wire Wire Line
+	4150 4350 4150 5100
+Connection ~ 4150 5100
+Wire Wire Line
+	4150 5100 4150 5800
+Connection ~ 4150 5800
+Wire Wire Line
+	4150 5800 4150 6550
+Connection ~ 4650 2150
+Wire Wire Line
+	4650 2150 4650 2850
+Connection ~ 4650 2850
+Wire Wire Line
+	4650 2850 4650 3600
+Connection ~ 4650 3600
+Wire Wire Line
+	4650 3600 4650 4350
+Connection ~ 4650 4350
+Wire Wire Line
+	4650 4350 4650 5100
+Connection ~ 4650 5100
+Wire Wire Line
+	4650 5100 4650 5800
+Connection ~ 4650 5800
+Wire Wire Line
+	4650 5800 4650 6550
+Connection ~ 5150 2150
+Wire Wire Line
+	5150 2150 5150 2850
+Connection ~ 5150 2850
+Wire Wire Line
+	5150 2850 5150 3600
+Connection ~ 5150 3600
+Wire Wire Line
+	5150 3600 5150 4350
+Connection ~ 5150 4350
+Wire Wire Line
+	5150 4350 5150 5100
+Connection ~ 5150 5100
+Wire Wire Line
+	5150 5100 5150 5800
+Connection ~ 5150 5800
+Wire Wire Line
+	5150 5800 5150 6550
+Text GLabel 1650 1000 1    50   Input ~ 0
+Col1
+Text GLabel 2150 1000 1    50   Input ~ 0
+Col2
+Text GLabel 2650 1000 1    50   Input ~ 0
+Col3
+Text GLabel 3150 1000 1    50   Input ~ 0
+Col4
+Text GLabel 3650 1000 1    50   Input ~ 0
+Col5
+Text GLabel 4150 1000 1    50   Input ~ 0
+Col6
+Text GLabel 4650 1000 1    50   Input ~ 0
+Col7
+Text GLabel 5150 1000 1    50   Input ~ 0
+Col8
+Wire Wire Line
+	1650 1000 1650 1400
+Wire Wire Line
+	2150 1000 2150 1400
+Wire Wire Line
+	2650 1000 2650 1400
+Wire Wire Line
+	3150 1000 3150 1400
+Text GLabel 5400 1700 2    50   Input ~ 0
+Row1
+Text GLabel 5400 2450 2    50   Input ~ 0
+Row2
+Text GLabel 5400 3150 2    50   Input ~ 0
+Row3
+Text GLabel 5400 3900 2    50   Input ~ 0
+Row4
+Text GLabel 5400 4650 2    50   Input ~ 0
+Row5
+Text GLabel 5400 5400 2    50   Input ~ 0
+Row6
+Text GLabel 5400 6100 2    50   Input ~ 0
+Row7
+Text GLabel 5400 6850 2    50   Input ~ 0
+Row8
+Wire Wire Line
+	4750 2450 5400 2450
+Wire Wire Line
+	4750 3150 5400 3150
+Wire Wire Line
+	4750 3900 5400 3900
+Wire Wire Line
+	4750 4650 5400 4650
+Wire Wire Line
+	4750 5400 5400 5400
+Wire Wire Line
+	4750 6100 5400 6100
+Wire Wire Line
+	4750 6850 5400 6850
+$Comp
+L power:GND #PWR01
+U 1 1 6091CD67
+P 8600 4900
+F 0 "#PWR01" H 8600 4650 50  0001 C CNN
+F 1 "GND" H 8605 4727 50  0000 C CNN
+F 2 "" H 8600 4900 50  0001 C CNN
+F 3 "" H 8600 4900 50  0001 C CNN
+	1    8600 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 6091D8CC
+P 10100 2950
+F 0 "#PWR02" H 10100 2700 50  0001 C CNN
+F 1 "GND" H 10105 2777 50  0000 C CNN
+F 2 "" H 10100 2950 50  0001 C CNN
+F 3 "" H 10100 2950 50  0001 C CNN
+	1    10100 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 2800 9100 2800
+Wire Wire Line
+	8600 4600 8600 4900
+Text GLabel 9100 3100 2    50   Input ~ 0
+Col1
+Text GLabel 9100 3200 2    50   Input ~ 0
+Col2
+Text GLabel 9100 3300 2    50   Input ~ 0
+Col3
+Text GLabel 9100 3400 2    50   Input ~ 0
+Col4
+Text GLabel 9100 3500 2    50   Input ~ 0
+Col5
+Text GLabel 9100 3600 2    50   Input ~ 0
+Col6
+Text GLabel 8100 3800 0    50   Input ~ 0
+Col7
+Text GLabel 8100 3900 0    50   Input ~ 0
+Col8
+Text GLabel 8100 2600 0    50   Input ~ 0
+Row1
+Text GLabel 8100 2500 0    50   Input ~ 0
+Row2
+Text GLabel 8100 4200 0    50   Input ~ 0
+Row3
+Text GLabel 8100 4100 0    50   Input ~ 0
+Row4
+Text GLabel 8100 3000 0    50   Input ~ 0
+Row5
+Text GLabel 8100 2900 0    50   Input ~ 0
+Row6
+Text GLabel 8100 2800 0    50   Input ~ 0
+Row7
+Text GLabel 8100 2700 0    50   Input ~ 0
+Row8
+NoConn ~ 8100 3400
+NoConn ~ 8100 3500
+NoConn ~ 8100 3600
+NoConn ~ 9100 2900
+NoConn ~ 9100 2600
+NoConn ~ 9100 2500
+NoConn ~ 8800 2100
+NoConn ~ 8700 2100
+NoConn ~ 8500 2100
+Text GLabel 10300 2600 2    50   Input ~ 0
+Col8
+Text GLabel 10300 2500 2    50   Input ~ 0
+Col7
+$Comp
+L Device:D D72
+U 1 1 60872CFB
+P 10150 2600
+F 0 "D72" H 10150 2384 50  0000 C CNN
+F 1 "D" H 10150 2475 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 10150 2600 50  0001 C CNN
+F 3 "~" H 10150 2600 50  0001 C CNN
+	1    10150 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L MCU_Module:Adafruit_Feather_32u4_BluefruitLE A1
+U 1 1 6080067C
+P 8600 3300
+F 0 "A1" H 8600 1911 50  0000 C CNN
+F 1 "Adafruit_Feather_32u4_BluefruitLE" H 8600 1820 50  0000 C CNN
+F 2 "Libraries:Adafruit_Feather_32u4_FONA" H 8700 1950 50  0001 L CIN
+F 3 "https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-32u4-bluefruit-le.pdf" H 8600 3500 50  0001 C CNN
+	1    8600 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 2800 10100 2800
+Wire Wire Line
+	10100 2800 10100 2950
+Wire Wire Line
+	4650 1000 4650 2150
+Wire Wire Line
+	5150 1000 5150 2150
+Wire Wire Line
+	3750 1700 5400 1700
+$Comp
+L SparkFun-Boards:SPARKFUN_PRO_MICRO B1
+U 1 1 60847BD1
+P 6700 3350
+F 0 "B1" H 6700 4260 45  0000 C CNN
+F 1 "SPARKFUN_PRO_MICRO" H 6700 4176 45  0000 C CNN
+F 2 "Boards:SPARKFUN_PRO_MICRO" H 6700 4150 20  0001 C CNN
+F 3 "" H 6700 3350 50  0001 C CNN
+F 4 "XXX-00000" H 6700 4081 60  0000 C CNN "Field4"
+	1    6700 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 60849D99
+P 6250 3100
+F 0 "#PWR04" H 6250 2850 50  0001 C CNN
+F 1 "GND" V 6255 2972 50  0000 R CNN
+F 2 "" H 6250 3100 50  0001 C CNN
+F 3 "" H 6250 3100 50  0001 C CNN
+	1    6250 3100
+	0    1    1    0   
+$EndComp
+Text GLabel 7150 3400 2    50   Input ~ 0
+Row1
+Text GLabel 7150 3300 2    50   Input ~ 0
+Row2
+Text GLabel 6250 2800 0    50   Input ~ 0
+Row4
+Text GLabel 7150 3200 2    50   Input ~ 0
+Row3
+Text GLabel 7150 3800 2    50   Input ~ 0
+Row6
+Text GLabel 7150 3700 2    50   Input ~ 0
+Row5
+Text GLabel 7150 3900 2    50   Input ~ 0
+Row7
+Text GLabel 7150 3500 2    50   Input ~ 0
+Row8
+Text GLabel 6250 3300 0    50   Input ~ 0
+Col1
+Text GLabel 6250 3400 0    50   Input ~ 0
+Col2
+Text GLabel 6250 3500 0    50   Input ~ 0
+Col3
+Text GLabel 6250 3600 0    50   Input ~ 0
+Col4
+Text GLabel 6250 3700 0    50   Input ~ 0
+Col5
+Text GLabel 6250 3800 0    50   Input ~ 0
+Col6
+Text GLabel 6250 2900 0    50   Input ~ 0
+Col7
+Text GLabel 7150 3600 2    50   Input ~ 0
+Col8
+NoConn ~ 7150 3100
+NoConn ~ 7150 2800
+NoConn ~ 6250 3900
+$Comp
+L power:GND #PWR05
+U 1 1 6085B647
+P 7150 2900
+F 0 "#PWR05" H 7150 2650 50  0001 C CNN
+F 1 "GND" V 7155 2772 50  0000 R CNN
+F 2 "" H 7150 2900 50  0001 C CNN
+F 3 "" H 7150 2900 50  0001 C CNN
+	1    7150 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 3000 7500 3000
+Wire Wire Line
+	7500 3000 7500 2000
+Wire Wire Line
+	7500 2000 9300 2000
+Wire Wire Line
+	9300 2000 9300 2700
+Wire Wire Line
+	9300 2700 9400 2700
+Wire Wire Line
+	10000 2700 10100 2700
+Wire Wire Line
+	10100 2700 10100 2800
+Connection ~ 10100 2800
+$Comp
+L Switch:SW_DIP_x04 SW49
+U 1 1 609C22B2
+P 9700 2700
+F 0 "SW49" H 9700 3167 50  0000 C CNN
+F 1 "SW_DIP_x04" H 9700 3076 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx04_Slide_9.78x12.34mm_W7.62mm_P2.54mm" H 9700 2700 50  0001 C CNN
+F 3 "~" H 9700 2700 50  0001 C CNN
+	1    9700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D71
+U 1 1 60872AEA
+P 10150 2500
+F 0 "D71" H 10150 2284 50  0000 C CNN
+F 1 "D" H 10150 2375 50  0000 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 10150 2500 50  0001 C CNN
+F 3 "~" H 10150 2500 50  0001 C CNN
+	1    10150 2500
+	-1   0    0    1   
+$EndComp
+Text GLabel 9400 2500 1    50   Input ~ 0
+Row1
+Wire Wire Line
+	9400 2500 9400 2600
+NoConn ~ 8100 3100
+NoConn ~ 6250 3200
+Wire Wire Line
+	6250 3000 6250 3100
+Connection ~ 6250 3100
+$EndSCHEMATC
