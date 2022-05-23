@@ -1,0 +1,198 @@
+05-08 20:30:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 299:Plugin executed on: 'win32'
+05-08 20:30:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 300:Plugin executed with python version: '3.9.6 (default, Sep 27 2021, 21:15:11) [MSC v.1929 64 bit (AMD64)]'
+05-08 20:30:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 301:KiCad build version: (6.0.0)
+05-08 20:30:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 302:Plugin version: 1.0.2
+05-08 20:30:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 303:Frame repr: <wx._core.Frame object at 0x0000016C81A18430>
+05-08 20:30:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 322:Preparing replicator with SW22 as a reference
+05-08 20:30:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 99:getting a list of all footprints on board
+05-08 20:30:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 349:source anchor footprint is 'SW22'
+Located on: ['Row1', 'Key34']
+With filenames: ['row.kicad_sch', 'keyrgb.kicad_sch']
+With sheet_id:['Row1', 'Key34']
+05-08 20:30:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 356:Corresponding footprints are 
+[('SW8', ['Row2', 'Key31']), ('SW31', ['Row5', 'Key35']), ('SW17', ['Row1', 'Key33']), ('SW9', ['Row4', 'Key31']), ('SW18', ['Row2', 'Key33']), ('SW23', ['Row2', 'Key34']), ('SW15', ['Row4', 'Key32']), ('SW16', ['Row5', 'Key32']), ('SW7', ['Row1', 'Key31']), ('SW2', ['Row2', 'Key30']), ('SW27', ['Row1', 'Key35']), ('SW30', ['Row3', 'Key35']), ('SW11', ['Row3', 'Key31']), ('SW12', ['Row1', 'Key32']), ('SW24', ['Row4', 'Key34']), ('SW6', ['Row3', 'Key30']), ('SW26', ['Row3', 'Key34']), ('SW5', ['Row1', 'Key30']), ('SW29', ['Row4', 'Key35']), ('SW19', ['Row4', 'Key33']), ('SW21', ['Row3', 'Key33']), ('SW28', ['Row2', 'Key35']), ('SW25', ['Row5', 'Key34']), ('SW10', ['Row5', 'Key31']), ('SW3', ['Row4', 'Key30']), ('SW20', ['Row5', 'Key33']), ('SW13', ['Row2', 'Key32']), ('SW4', ['Row5', 'Key30']), ('SW14', ['Row3', 'Key32']), ('SW22', ['Row1', 'Key34'])]
+05-08 20:30:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 368:Showing dialog
+05-08 20:30:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 373:Toolbar position: wx.Point(1883, 80)
+05-08 20:30:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 379:Dialog position: wx.Point(1519, 80)
+05-08 20:30:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 319:constructing a list of sheets suitable for replication on level:'Key34', file:'keyrgb.kicad_sch'
+05-08 20:30:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 356:suitable sheets are:[['Row1', 'Key30'], ['Row1', 'Key31'], ['Row1', 'Key32'], ['Row1', 'Key33'], ['Row1', 'Key35'], ['Row2', 'Key30'], ['Row2', 'Key31'], ['Row2', 'Key32'], ['Row2', 'Key33'], ['Row2', 'Key34'], ['Row2', 'Key35'], ['Row3', 'Key30'], ['Row3', 'Key31'], ['Row3', 'Key32'], ['Row3', 'Key33'], ['Row3', 'Key34'], ['Row3', 'Key35'], ['Row4', 'Key30'], ['Row4', 'Key31'], ['Row4', 'Key32'], ['Row4', 'Key33'], ['Row4', 'Key34'], ['Row4', 'Key35'], ['Row5', 'Key30'], ['Row5', 'Key31'], ['Row5', 'Key32'], ['Row5', 'Key33'], ['Row5', 'Key34'], ['Row5', 'Key35']]
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 319:constructing a list of sheets suitable for replication on level:'Key34', file:'keyrgb.kicad_sch'
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 356:suitable sheets are:[['Row1', 'Key30'], ['Row1', 'Key31'], ['Row1', 'Key32'], ['Row1', 'Key33'], ['Row1', 'Key35'], ['Row2', 'Key30'], ['Row2', 'Key31'], ['Row2', 'Key32'], ['Row2', 'Key33'], ['Row2', 'Key34'], ['Row2', 'Key35'], ['Row3', 'Key30'], ['Row3', 'Key31'], ['Row3', 'Key32'], ['Row3', 'Key33'], ['Row3', 'Key34'], ['Row3', 'Key35'], ['Row4', 'Key30'], ['Row4', 'Key31'], ['Row4', 'Key32'], ['Row4', 'Key33'], ['Row4', 'Key34'], ['Row4', 'Key35'], ['Row5', 'Key30'], ['Row5', 'Key31'], ['Row5', 'Key32'], ['Row5', 'Key33'], ['Row5', 'Key34'], ['Row5', 'Key35']]
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 143:Replicating layout
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 134:Starting replication of sheets: [['Row1', 'Key30'], ['Row1', 'Key31'], ['Row1', 'Key32'], ['Row1', 'Key33'], ['Row1', 'Key35'], ['Row2', 'Key30'], ['Row2', 'Key31'], ['Row2', 'Key32'], ['Row2', 'Key33'], ['Row2', 'Key34'], ['Row2', 'Key35'], ['Row3', 'Key30'], ['Row3', 'Key31'], ['Row3', 'Key32'], ['Row3', 'Key33'], ['Row3', 'Key34'], ['Row3', 'Key35'], ['Row4', 'Key30'], ['Row4', 'Key31'], ['Row4', 'Key32'], ['Row4', 'Key33'], ['Row4', 'Key34'], ['Row4', 'Key35'], ['Row5', 'Key30'], ['Row5', 'Key31'], ['Row5', 'Key32'], ['Row5', 'Key33'], ['Row5', 'Key34'], ['Row5', 'Key35']]
+on level: ['Row1', 'Key34']
+with tracks=True, zone=True, text=True, containing=True, remove=False, locked=False, by_group=False
+05-08 20:31:08 root 239:updating GUI message: 'Preparing for replication'
+05-08 20:31:08 root 244:updating GUI with: 0
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 203:Getting the list of source footprints
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 218:Getting the list of all the remaining footprints
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 223:Getting nets local to source footprints
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 227:Getting source bounding box
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 231:Getting source tracks
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 241:Getting source zones
+05-08 20:31:08 root 244:updating GUI with: 62
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 250:Getting source text items
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 259:Getting source drawing items
+05-08 20:31:08 root 239:updating GUI message: 'Replicating footprints'
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 652:Replicating footprints
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row1', 'Key30']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row1', 'Key31']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row1', 'Key32']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row1', 'Key33']
+05-08 20:31:08 root 244:updating GUI with: 13
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row1', 'Key35']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row2', 'Key30']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row2', 'Key31']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row2', 'Key32']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row2', 'Key33']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row2', 'Key34']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row2', 'Key35']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row3', 'Key30']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row3', 'Key31']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row3', 'Key32']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row3', 'Key33']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row3', 'Key34']
+05-08 20:31:08 root 244:updating GUI with: 52
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row3', 'Key35']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row4', 'Key30']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row4', 'Key31']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row4', 'Key32']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row4', 'Key33']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row4', 'Key34']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row4', 'Key35']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row5', 'Key30']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row5', 'Key31']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row5', 'Key32']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row5', 'Key33']
+05-08 20:31:08 root 244:updating GUI with: 93
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row5', 'Key34']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Row5', 'Key35']
+05-08 20:31:08 root 239:updating GUI message: 'Replicating tracks'
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 818:Replicating tracks
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row1', 'Key30']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row1', 'Key31']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row1', 'Key32']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row1', 'Key33']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row1', 'Key35']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row2', 'Key30']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row2', 'Key31']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row2', 'Key32']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row2', 'Key33']
+05-08 20:31:08 root 244:updating GUI with: 27
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row2', 'Key34']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row2', 'Key35']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row3', 'Key30']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row3', 'Key31']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row3', 'Key32']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row3', 'Key33']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row3', 'Key34']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row3', 'Key35']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row4', 'Key30']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row4', 'Key31']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row4', 'Key32']
+05-08 20:31:08 root 244:updating GUI with: 66
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row4', 'Key33']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row4', 'Key34']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row4', 'Key35']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row5', 'Key30']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row5', 'Key31']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row5', 'Key32']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row5', 'Key33']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row5', 'Key34']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Row5', 'Key35']
+05-08 20:31:08 root 239:updating GUI message: 'Replicating zones'
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 876:Replicating zones
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row1', 'Key30']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row1', 'Key31']
+05-08 20:31:08 root 244:updating GUI with: 6
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row1', 'Key32']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row1', 'Key33']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row1', 'Key35']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row2', 'Key30']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row2', 'Key31']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row2', 'Key32']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row2', 'Key33']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row2', 'Key34']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row2', 'Key35']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row3', 'Key30']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row3', 'Key31']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row3', 'Key32']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row3', 'Key33']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row3', 'Key34']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row3', 'Key35']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row4', 'Key30']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row4', 'Key31']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row4', 'Key32']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row4', 'Key33']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row4', 'Key34']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row4', 'Key35']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row5', 'Key30']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row5', 'Key31']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row5', 'Key32']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row5', 'Key33']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row5', 'Key34']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Row5', 'Key35']
+05-08 20:31:08 root 239:updating GUI message: 'Replicating text'
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 946:Replicating text
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row1', 'Key30']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row1', 'Key31']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row1', 'Key32']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row1', 'Key33']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row1', 'Key35']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row2', 'Key30']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row2', 'Key31']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row2', 'Key32']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row2', 'Key33']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row2', 'Key34']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row2', 'Key35']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row3', 'Key30']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row3', 'Key31']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row3', 'Key32']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row3', 'Key33']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row3', 'Key34']
+05-08 20:31:08 root 244:updating GUI with: 55
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row3', 'Key35']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row4', 'Key30']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row4', 'Key31']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row4', 'Key32']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row4', 'Key33']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row4', 'Key34']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row4', 'Key35']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row5', 'Key30']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row5', 'Key31']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row5', 'Key32']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row5', 'Key33']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row5', 'Key34']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Row5', 'Key35']
+05-08 20:31:08 root 239:updating GUI message: 'Replicating drawings'
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Replicating drawings
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row1', 'Key30']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row1', 'Key31']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row1', 'Key32']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row1', 'Key33']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row1', 'Key35']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row2', 'Key30']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row2', 'Key31']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row2', 'Key32']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row2', 'Key33']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row2', 'Key34']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row2', 'Key35']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row3', 'Key30']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row3', 'Key31']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row3', 'Key32']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row3', 'Key33']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row3', 'Key34']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row3', 'Key35']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row4', 'Key30']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row4', 'Key31']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row4', 'Key32']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row4', 'Key33']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row4', 'Key34']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row4', 'Key35']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row5', 'Key30']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row5', 'Key31']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row5', 'Key32']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row5', 'Key33']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row5', 'Key34']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Row5', 'Key35']
+05-08 20:31:08 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 167:Replication complete

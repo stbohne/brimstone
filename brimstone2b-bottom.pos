@@ -1,0 +1,15 @@
+### Module positions - created on Sat May 21 18:43:14 2022 ###
+### Printed by Pcbnew version (6.0.0)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val            Package                                                PosX       PosY       Rot  Side
+D9        D              D_0805_2012Metric_Pad1.18x1.45mm_HandSolder_Dual  -131.2400  -120.4670  180.0000  bottom
+D16       D              D_0805_2012Metric_Pad1.18x1.45mm_HandSolder_Dual  -100.6000  -123.9970  180.0000  bottom
+IC2       MCP23017-E_SP  DIP794W56P254L3486H508Q28N                        -160.3700   -36.7070  -90.0000  bottom
+IC3       PACDN006MR     SOP65P490X110-8N-reversible                       -115.6700   -68.9070  -90.0000  bottom
+IC4       PACDN006MR     SOP65P490X110-8N-reversible                       -115.6700   -87.9070  -90.0000  bottom
+IC5       PACDN006MR     SOP65P490X110-8N-reversible                       -115.6700  -106.9070  -90.0000  bottom
+IC6       PACDN006MR     SOP65P490X110-8N-reversible                       -116.6700  -132.9070  -90.0000  bottom
+IC7       PACDN006MR     SOP65P490X110-8N-reversible                       -115.6700   -49.9070  -90.0000  bottom
+U5        TRRS           TRRS-PJ-320A                                      -200.5825   -99.5670   90.0000  bottom
+## End
